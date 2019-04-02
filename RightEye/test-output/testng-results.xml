@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23185" started-at="2019-04-02T15:45:30Z" finished-at="2019-04-02T15:45:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23185" started-at="2019-04-02T15:45:30Z" finished-at="2019-04-02T15:45:53Z">
+      <class name="LoginPage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LoginPage@6d00a15d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:30Z" finished-at="2019-04-02T15:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:LoginPage@6d00a15d]" name="Initialize" is-config="true" duration-ms="8081" started-at="2019-04-02T15:45:30Z" finished-at="2019-04-02T15:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginPage@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-02T15:45:38Z" finished-at="2019-04-02T15:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:LoginPage@6d00a15d]" name="successfulLogin" duration-ms="2531" started-at="2019-04-02T15:45:38Z" finished-at="2019-04-02T15:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginPage@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:41Z" finished-at="2019-04-02T15:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginPage@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:41Z" finished-at="2019-04-02T15:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="unsuccessfulLoginIncorrectEmail()[pri:0, instance:LoginPage@6d00a15d]" name="unsuccessfulLoginIncorrectEmail" duration-ms="2335" started-at="2019-04-02T15:45:41Z" finished-at="2019-04-02T15:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginIncorrectEmail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginPage@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:43Z" finished-at="2019-04-02T15:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginPage@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:43Z" finished-at="2019-04-02T15:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="unsuccessfulLoginIncorrectPw()[pri:0, instance:LoginPage@6d00a15d]" name="unsuccessfulLoginIncorrectPw" duration-ms="2341" started-at="2019-04-02T15:45:43Z" finished-at="2019-04-02T15:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginIncorrectPw -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginPage@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:45Z" finished-at="2019-04-02T15:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="unsuccessfulLoginIncorrectPw()[pri:0, instance:LoginPage@6d00a15d]" name="unsuccessfulLoginIncorrectPw" duration-ms="2340" started-at="2019-04-02T15:45:45Z" finished-at="2019-04-02T15:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginIncorrectPw -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginPage@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:45Z" finished-at="2019-04-02T15:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginPage@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:48Z" finished-at="2019-04-02T15:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="unsuccessfulLoginIncorrectPw3Times()[pri:0, instance:LoginPage@6d00a15d]" name="unsuccessfulLoginIncorrectPw3Times" duration-ms="2450" started-at="2019-04-02T15:45:48Z" finished-at="2019-04-02T15:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginIncorrectPw3Times -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginPage@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:48Z" finished-at="2019-04-02T15:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:LoginPage@6d00a15d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:50Z" finished-at="2019-04-02T15:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginPage@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:50Z" finished-at="2019-04-02T15:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="unsuccessfulLoginIncorrectPw4Times()[pri:0, instance:LoginPage@6d00a15d]" name="unsuccessfulLoginIncorrectPw4Times" duration-ms="2373" started-at="2019-04-02T15:45:50Z" finished-at="2019-04-02T15:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginIncorrectPw4Times -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:LoginPage@6d00a15d]" name="closeBrowser" is-config="true" duration-ms="683" started-at="2019-04-02T15:45:53Z" finished-at="2019-04-02T15:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:LoginPage@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:53Z" finished-at="2019-04-02T15:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:LoginPage@6d00a15d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-02T15:45:53Z" finished-at="2019-04-02T15:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
