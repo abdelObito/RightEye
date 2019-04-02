@@ -1,0 +1,80 @@
+<html>
+<header>
+<script>	
+
+var errorNumber=3;
+
+function ValidateEmailPassWord()
+{
+
+if(document.form1.email.value=="coddin@project.com" && document.form1.pw.value=="Coding@123")
+{
+
+alert("You have logged in succesfully");
+}
+else
+
+{
+ if (document.form1.email.value!="coddin@project.com")
+{
+alert("Wrong email adress");
+
+}
+else if (document.form1.email.value=="coddin@project.com" && document.form1.pw.value!="Coding@123")
+{
+if (errorNumber==1){
+alert("Email adress and password doesn't match. You only have one more chance. Please contact RightEye Support at 800-301-0803");
+errorNumber--;
+return;
+}
+if (errorNumber==0){
+alert("your Email is locked and invalid. Please contact RightEye Support at 800-301-0803");
+return ;
+}
+errorNumber--;
+alert("Email adress and password doesn't match");
+}
+}
+}
+</script>
+</header>
+
+
+<body>	
+<form name="form1" method="post" >
+<table style="width:100%" >
+  <tr >
+  <td colspan="3" align="center"><img src="images.png"></td>
+	
+  </tr>
+  <tr >
+    <td align="right">Email Adress :</td>
+    <td align="left"><input type="text" name="email"></td> 
+  </tr>
+  
+  <tr>
+    <td align="right">PASSWORD :</td>
+    <td align="left"><input type="text" name="pw"></td> 
+    
+  </tr>
+    <tr>
+    <td align="right"></td>
+    <td align="left" ><input type="button" name="loginButton" value="Login" style="background-color:green" onclick="ValidateEmailPassWord()"></td> 
+    
+  </tr>
+    <tr>
+    <td align="right"></td>
+    <td align="left"><a href="FAQ.html">Need Help?</a></td> 
+    
+  </tr>
+</table>
+
+</form>
+	
+
+
+
+
+</body>
+
+</html>
